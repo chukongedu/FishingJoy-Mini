@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Amphiprion_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{179, 403}, {58, 38}}</string>
+			<key>offset</key>
+			<string>{-9, 7}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{79, 126}, {75, 32}}</string>
+			<key>offset</key>
+			<string>{0, 4}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{223, 241}, {69, 33}}</string>
+			<key>offset</key>
+			<string>{-4, 2}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{66, 348}, {64, 36}}</string>
+			<key>offset</key>
+			<string>{-7, 1}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_death_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{302, 217}, {69, 33}}</string>
+			<key>offset</key>
+			<string>{-4, 2}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>AngelFish_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 325}, {64, 56}}</string>
+			<key>offset</key>
+			<string>{-1, 1}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{414, 274}, {63, 46}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{123, 451}, {57, 42}}</string>
+			<key>offset</key>
+			<string>{-3, -8}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{336, 316}, {60, 40}}</string>
+			<key>offset</key>
+			<string>{-3, -7}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_death_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{143, 306}, {65, 52}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>Bream_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{87, 1}, {85, 45}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{337, 171}, {81, 45}}</string>
+			<key>offset</key>
+			<string>{-3, -1}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 126}, {77, 49}}</string>
+			<key>offset</key>
+			<string>{-4, -1}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{419, 204}, {79, 46}}</string>
+			<key>offset</key>
+			<string>{-3, -1}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_death_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 80}, {84, 45}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Croaker_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{66, 385}, {62, 38}}</string>
+			<key>offset</key>
+			<string>{-2, 1}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 286}, {67, 38}}</string>
+			<key>offset</key>
+			<string>{-1, 1}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{74, 269}, {68, 38}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{148, 266}, {68, 39}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_death_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{69, 308}, {65, 39}}</string>
+			<key>offset</key>
+			<string>{-1, 1}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>PufferS_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 254}, {72, 31}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{228, 209}, {73, 31}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 222}, {73, 31}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>SmallFish_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{277, 472}, {53, 30}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>SmallFish_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{293, 438}, {48, 30}}</string>
+			<key>offset</key>
+			<string>{-2, 1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>SmallFish_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{372, 217}, {43, 30}}</string>
+			<key>offset</key>
+			<string>{-3, 1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>SmallFish_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{372, 248}, {41, 31}}</string>
+			<key>offset</key>
+			<string>{-4, 1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>SmallFish_death_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{181, 480}, {40, 31}}</string>
+			<key>offset</key>
+			<string>{-4, 1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>PufferB_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {85, 78}}</string>
+			<key>offset</key>
+			<string>{-1, -3}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferB_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{87, 47}, {84, 78}}</string>
+			<key>offset</key>
+			<string>{-2, -3}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferB_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{343, 43}, {83, 77}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferB_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{427, 79}, {83, 76}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferB_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{428, 1}, {83, 77}}</string>
+			<key>offset</key>
+			<string>{2, -2}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferB_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{173, 1}, {84, 78}}</string>
+			<key>offset</key>
+			<string>{0, -3}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{75, 237}, {72, 31}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{228, 176}, {73, 32}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{76, 205}, {73, 31}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{150, 234}, {72, 31}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{154, 202}, {73, 31}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>PufferS_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{154, 169}, {73, 32}}</string>
+			<key>offset</key>
+			<string>{3, 0}</string>
+			<key>sourceSize</key>
+			<string>{88, 88}</string>
+		</dict>
+		<key>Amphiprion_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 453}, {59, 55}}</string>
+			<key>offset</key>
+			<string>{-8, 2}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 176}, {74, 45}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{217, 275}, {66, 36}}</string>
+			<key>offset</key>
+			<string>{-4, -2}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 407}, {61, 45}}</string>
+			<key>offset</key>
+			<string>{-6, -8}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{293, 251}, {66, 36}}</string>
+			<key>offset</key>
+			<string>{-4, -2}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>Amphiprion_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{79, 159}, {74, 45}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{80, 60}</string>
+		</dict>
+		<key>AngelFish_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{273, 314}, {62, 47}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{209, 333}, {62, 46}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{61, 453}, {61, 43}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{181, 442}, {59, 37}}</string>
+			<key>offset</key>
+			<string>{-2, -4}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{360, 280}, {53, 35}}</string>
+			<key>offset</key>
+			<string>{-4, -10}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{272, 362}, {50, 34}}</string>
+			<key>offset</key>
+			<string>{-6, -12}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_007.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{241, 438}, {51, 33}}</string>
+			<key>offset</key>
+			<string>{-5, -12}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_008.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{222, 480}, {54, 30}}</string>
+			<key>offset</key>
+			<string>{-4, -10}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_009.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{238, 402}, {60, 35}}</string>
+			<key>offset</key>
+			<string>{-2, -8}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>AngelFish_actor_010.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{131, 359}, {62, 43}}</string>
+			<key>offset</key>
+			<string>{0, -4}</string>
+			<key>sourceSize</key>
+			<string>{75, 60}</string>
+		</dict>
+		<key>Bream_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{258, 43}, {84, 37}}</string>
+			<key>offset</key>
+			<string>{0, -2}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{343, 1}, {84, 41}}</string>
+			<key>offset</key>
+			<string>{0, -2}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{172, 124}, {82, 44}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{421, 156}, {81, 47}}</string>
+			<key>offset</key>
+			<string>{-2, -1}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{255, 126}, {81, 49}}</string>
+			<key>offset</key>
+			<string>{-2, 0}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{339, 121}, {81, 49}}</string>
+			<key>offset</key>
+			<string>{-2, 0}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_007.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{256, 81}, {82, 44}}</string>
+			<key>offset</key>
+			<string>{-2, -3}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_008.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{172, 80}, {83, 43}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Bream_actor_009.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{258, 1}, {84, 41}}</string>
+			<key>offset</key>
+			<string>{0, -2}</string>
+			<key>sourceSize</key>
+			<string>{95, 50}</string>
+		</dict>
+		<key>Croaker_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{117, 424}, {61, 26}}</string>
+			<key>offset</key>
+			<string>{-2, -2}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 382}, {64, 24}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{209, 312}, {63, 20}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{414, 251}, {64, 22}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>Croaker_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{284, 288}, {63, 25}}</string>
+			<key>offset</key>
+			<string>{-2, -2}</string>
+			<key>sourceSize</key>
+			<string>{69, 42}</string>
+		</dict>
+		<key>SmallFish_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{194, 380}, {55, 21}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>SmallFish_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{299, 397}, {55, 24}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>SmallFish_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{63, 424}, {53, 27}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+		<key>SmallFish_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{323, 362}, {54, 23}}</string>
+			<key>offset</key>
+			<string>{-1, -1}</string>
+			<key>sourceSize</key>
+			<string>{55, 41}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+		<key>realTextureFileName</key>
+		<string>FishActor-Small.png</string>
+		<key>size</key>
+		<string>{512, 512}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:b92101d80b169d11b99a256c2afa64fd$</string>
+		<key>textureFileName</key>
+		<string>FishActor-Small.png</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>frames</key>
+    <dict>
+      <key>ui_other_net_010_0.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{1, 1}, {106, 105}}</string>
+        <key>path</key>
+        <string>C:\Documents and Settings\like\桌面\ui_other_net_010.png</string>
+        <key>originalrect</key>
+        <string>{{0, 0}, {106, 105}}</string>
+        <key>originalsourcerect</key>
+        <string>{{0, 0}, {108, 106}}</string>
+      </dict>
+      <key>ui_other_bullet_010-hd_0.png</key>
+      <dict>
+        <key>frame</key>
+        <string>{{109, 1}, {44, 83}}</string>
+        <key>path</key>
+        <string>C:\Users\Administrator\Desktop\2011.8.22\1-项目-捕鱼达人1\提交文件\1.7版本 美术资源\iphone\ui_other_bullet_010-hd.png</string>
+        <key>originalrect</key>
+        <string>{{1, 2}, {44, 83}}</string>
+        <key>originalsourcerect</key>
+        <string>{{0, 0}, {46, 90}}</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

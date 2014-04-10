@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>GMarlinsFish_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{735, 1162}, {280, 198}}</string>
+			<key>offset</key>
+			<string>{-28, 32}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {404, 223}}</string>
+			<key>offset</key>
+			<string>{6, 15}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{365, 1197}, {303, 220}}</string>
+			<key>offset</key>
+			<string>{-44, -15}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{744, 954}, {257, 207}}</string>
+			<key>offset</key>
+			<string>{-56, -17}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GrouperFish_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{875, 413}, {67, 72}}</string>
+			<key>offset</key>
+			<string>{-15, 8}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{855, 684}, {76, 80}}</string>
+			<key>offset</key>
+			<string>{-12, 2}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{898, 345}, {95, 67}}</string>
+			<key>offset</key>
+			<string>{-4, 0}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{772, 684}, {82, 50}}</string>
+			<key>offset</key>
+			<string>{-9, -4}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_death_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{943, 413}, {74, 52}}</string>
+			<key>offset</key>
+			<string>{-13, -6}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>MarlinsFish_death_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{756, 765}, {266, 188}}</string>
+			<key>offset</key>
+			<string>{-29, 31}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_death_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{406, 1}, {392, 211}}</string>
+			<key>offset</key>
+			<string>{6, 15}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_death_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{669, 1361}, {290, 208}}</string>
+			<key>offset</key>
+			<string>{-45, -15}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_death_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{779, 488}, {244, 195}}</string>
+			<key>offset</key>
+			<string>{-57, -17}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{391, 323}, {389, 109}}</string>
+			<key>offset</key>
+			<string>{-3, -7}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 225}, {389, 109}}</string>
+			<key>offset</key>
+			<string>{-4, -6}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{390, 433}, {388, 109}}</string>
+			<key>offset</key>
+			<string>{-4, -4}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 555}, {385, 109}}</string>
+			<key>offset</key>
+			<string>{-6, -3}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{389, 543}, {386, 109}}</string>
+			<key>offset</key>
+			<string>{-5, -2}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{406, 213}, {389, 109}}</string>
+			<key>offset</key>
+			<string>{-4, -1}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_007.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 335}, {388, 109}}</string>
+			<key>offset</key>
+			<string>{-4, -2}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_008.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{387, 653}, {384, 110}}</string>
+			<key>offset</key>
+			<string>{-6, -4}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_009.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 665}, {382, 109}}</string>
+			<key>offset</key>
+			<string>{-7, -4}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GMarlinsFish_actor_010.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 445}, {387, 109}}</string>
+			<key>offset</key>
+			<string>{-4, -6}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>GrouperFish_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{906, 170}, {105, 87}}</string>
+			<key>offset</key>
+			<string>{-1, 0}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{899, 258}, {101, 86}}</string>
+			<key>offset</key>
+			<string>{-4, 0}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{781, 405}, {93, 82}}</string>
+			<key>offset</key>
+			<string>{-8, 0}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{796, 321}, {101, 83}}</string>
+			<key>offset</key>
+			<string>{-3, -1}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{909, 1}, {108, 84}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{909, 86}, {108, 83}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_007.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{799, 167}, {106, 79}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_008.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{796, 247}, {102, 73}}</string>
+			<key>offset</key>
+			<string>{-3, -2}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_009.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{799, 87}, {106, 79}}</string>
+			<key>offset</key>
+			<string>{-1, -2}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>GrouperFish_actor_010.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{799, 1}, {109, 85}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>sourceSize</key>
+			<string>{115, 94}</string>
+		</dict>
+		<key>MarlinsFish_actor_001.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 861}, {371, 85}}</string>
+			<key>offset</key>
+			<string>{-2, -7}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{373, 850}, {371, 85}}</string>
+			<key>offset</key>
+			<string>{-2, -5}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{373, 936}, {370, 85}}</string>
+			<key>offset</key>
+			<string>{-3, -4}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1033}, {367, 85}}</string>
+			<key>offset</key>
+			<string>{-5, -3}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{371, 1022}, {368, 85}}</string>
+			<key>offset</key>
+			<string>{-4, -2}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_006.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 775}, {371, 85}}</string>
+			<key>offset</key>
+			<string>{-2, -1}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_007.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{384, 764}, {371, 85}}</string>
+			<key>offset</key>
+			<string>{-3, -2}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_008.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{369, 1108}, {365, 88}}</string>
+			<key>offset</key>
+			<string>{-5, -5}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_009.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1119}, {363, 87}}</string>
+			<key>offset</key>
+			<string>{-6, -5}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+		<key>MarlinsFish_actor_010.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 947}, {369, 85}}</string>
+			<key>offset</key>
+			<string>{-3, -5}</string>
+			<key>sourceSize</key>
+			<string>{450, 325}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+		<key>realTextureFileName</key>
+		<string>FishActor-Marlin.png</string>
+		<key>size</key>
+		<string>{1024, 2048}</string>
+		<key>smartupdate</key>
+		<string>$TexturePacker:SmartUpdate:829eee7b144e662a7509ad4409bc3b9c$</string>
+		<key>textureFileName</key>
+		<string>FishActor-Marlin-hd.png</string>
+	</dict>
+</dict>
+</plist>
