@@ -2734,6 +2734,8 @@
 		59A79D4E1821E26E00F19697 /* CCEventListenerMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEventListenerMouse.h; sourceTree = "<group>"; };
 		59A79D4F1821E26E00F19697 /* CCEventMouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCEventMouse.cpp; sourceTree = "<group>"; };
 		59A79D501821E26E00F19697 /* CCEventMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEventMouse.h; sourceTree = "<group>"; };
+		66CC1A0418FBE6A500E34F7A /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		66CC1A0518FBE7D600E34F7A /* cocos2dx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cocos2dx-Prefix.pch"; sourceTree = "<group>"; };
 		74AC800F4905C8827A44EED3 /* CCMaterialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMaterialManager.h; sourceTree = "<group>"; };
 		74AC80EEB031D67E86B45096 /* CCFrustum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCFrustum.cpp; sourceTree = "<group>"; };
 		74AC80F6E92FC29EA536D7F8 /* CCRenderCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCRenderCommand.cpp; sourceTree = "<group>"; };
@@ -4459,6 +4461,8 @@
 		46A169A11807B037005B8026 /* 2d */ = {
 			isa = PBXGroup;
 			children = (
+				66CC1A0518FBE7D600E34F7A /* cocos2dx-Prefix.pch */,
+				66CC1A0418FBE6A500E34F7A /* Prefix.pch */,
 				1A9DCA47180E6DE3007A3AD4 /* ccTypes.cpp */,
 				1A9DCA48180E6DE3007A3AD4 /* ccTypes.h */,
 				1A9DCA41180E6D90007A3AD4 /* CCDeprecated.cpp */,
