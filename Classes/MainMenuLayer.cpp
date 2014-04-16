@@ -23,7 +23,7 @@ bool MainMenuLayer::init(){
 	
 	//Set the background picture
 	auto ui_background = Sprite::create("MainMenu/ui_background_normal-hd.png");
-	ui_background->setAnchorPoint(ccp(0.0f,0.0f));
+	ui_background->setAnchorPoint(Point(0.0f,0.0f));
 	ui_background->setPosition(Point(0.0f,0.0f));
 	addChild(ui_background,0.0f);
 	

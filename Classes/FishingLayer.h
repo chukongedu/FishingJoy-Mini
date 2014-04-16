@@ -16,7 +16,6 @@
 #include "SimpleAudioEngine.h"
 #include "extensions/cocos-ext.h"
 #include "ui/CocosGUI.h"
-//#include "AppDelegate.h"
 #include "CCScene.h"
 
 USING_NS_CC;
@@ -39,19 +38,15 @@ protected:
 	ImageView* cannon;
 	
 	Sprite* _bullet;
-	Sprite* net;
-	Sprite* net1;
-	Sprite* net2;
-	Sprite* net3;
+    
+    Vector<Sprite*> netVec;
 	
 	Layout* widget;
 	
 	TextAtlas* scoreLabel;
 	
 	int score;
-	Point bulletEndPosition;
 	void bulletRelease();
-	void netRelease();
 	
 	virtual void update(float delta);
 	
@@ -76,6 +71,10 @@ protected:
 	void removeFishes();
 	
 	void updateFishMovement();
+    
+    void netInit(Point bulletPosition);
+
+	void netRelease(Node* sender);
 };
 
 #endif
