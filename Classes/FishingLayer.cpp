@@ -70,11 +70,11 @@ bool FishingLayer::init(){
 	//turn on the background music
 	auto turnOnMusicBtn= dynamic_cast<ImageView *>(widget->getChildByName("ImageView_42"));
 	turnOnMusicBtn->addTouchEventListener(this,toucheventselector(FishingLayer::turnOnMusic));
+    
 	//turn off the background music
 	auto turnOffMusicBtn= dynamic_cast<Button *>(widget->getChildByName("music"));
 	turnOffMusicBtn->addTouchEventListener(this,toucheventselector(FishingLayer::turnOffMusic));
     
-	//addChild(turnOffMusicBtn,1,99);
 	//Activate update
 	scheduleUpdate();
 	
@@ -107,7 +107,6 @@ void FishingLayer::shootEvent(Widget* target,TouchEventType type){
 		FishingLayer::setCannonRotation(target,target->getTouchEndPos());
 		
 		//Shoot the bullet
-		bulletEndPosition=target->getTouchEndPos();
 		bulletShoot(target->getTouchEndPos());
 		
 		
@@ -124,17 +123,6 @@ void FishingLayer::bulletShoot(Point endPosition){
 		
 		//Init the bullet
 		auto bullet = Sprite::createWithSpriteFrameName("weapon_bullet_007.png");
-		auto netFish=SpriteBatchNode::create("GameScene/bullet10-hd.png",5);
-		//addChild(netFish,1);
-		
-        net=Sprite::createWithTexture(netFish->getTexture(),Rect(0,0,80,80));
-        net1=Sprite::createWithTexture(netFish->getTexture(),Rect(0,0,80,80));
-        net2=Sprite::createWithTexture(netFish->getTexture(),Rect(0,0,80,80));
-        net3=Sprite::createWithTexture(netFish->getTexture(),Rect(0,0,80,80));
-        
-        net1->setRotation(90.0f);
-        net2->setRotation(180.0f);
-        net3->setRotation(270.0f);
 		
 		float shifting;
         
@@ -146,47 +134,18 @@ void FishingLayer::bulletShoot(Point endPosition){
 			
 			shifting = -20.0f;
 		}
-		
+        
 		//Set the anchorpoint, rotation, position of the bullet
 		_bullet = bullet;
 		_bullet->setAnchorPoint(Point(0.5, 0.5));
 		_bullet->setRotation(cannon->getRotation());
 		_bullet->setPosition(Point(cannon->getPosition().x-shifting, cannon->getPosition().y+20));
         
-		auto scale0=ScaleTo::create(0.5,0.3);
-		auto scale1=ScaleTo::create(0.5,0.1);
-		auto scale2=ScaleTo::create(0.5,0.35);
-		auto scale3=ScaleTo::create(0.5,0.15);
-		auto scale4=ScaleTo::create(0.1,0);
-		auto scale00=ScaleTo::create(0.5,0.3);
-		auto scale01=ScaleTo::create(0.5,0.1);
-		auto scale02=ScaleTo::create(0.5,0.35);
-		auto scale03=ScaleTo::create(0.5,0.15);
-		auto scale04=ScaleTo::create(0.1,0);
-		auto scale000=ScaleTo::create(0.5,0.3);
-		auto scale001=ScaleTo::create(0.5,0.1);
-		auto scale002=ScaleTo::create(0.5,0.35);
-		auto scale003=ScaleTo::create(0.5,0.15);
-		auto scale004=ScaleTo::create(0.1,0);
-		auto scale0000=ScaleTo::create(0.5,0.3);
-		auto scale0001=ScaleTo::create(0.5,0.1);
-		auto scale0002=ScaleTo::create(0.5,0.35);
-		auto scale0003=ScaleTo::create(0.5,0.15);
-		auto scale0004=ScaleTo::create(0.1,0);
-		net->setAnchorPoint(Point(0, 0));
-		net1->setAnchorPoint(Point(0, 0));
-		net2->setAnchorPoint(Point(0, 0));
-		net3->setAnchorPoint(Point(0, 0));
-		
 		//Shoot the bullet and release after the action ended
 		_bullet->runAction(Sequence::create(MoveTo::create(1, endPosition),
 											CallFunc::create(CC_CALLBACK_0(FishingLayer::bulletRelease,this)),
 											NULL));
 		addChild(_bullet,1);
-		net->runAction(Sequence::create(scale0,scale1,scale2,scale3,scale4,NULL));
-		net1->runAction(Sequence::create(scale00,scale01,scale02,scale03,scale04,NULL));
-		net2->runAction(Sequence::create(scale000,scale001,scale002,scale003,scale004,NULL));
-		net3->runAction(Sequence::create(scale0000,scale0001,scale0002,scale0003,scale0004,NULL));
 		
 		//Play bullet shoot music effect
 		CocosDenshion::SimpleAudioEngine::getInstance()->playEffect(SOUND_FIRE);
@@ -196,28 +155,42 @@ void FishingLayer::bulletShoot(Point endPosition){
 
 void FishingLayer::bulletRelease(){
     
+    
 	//Release the bullet, and set the _bullet to NULL
 	if(_bullet!=NULL){
+        
+        //Init fishing net
+        netInit(_bullet->getPosition());
+        
 		_bullet->removeFromParent();
 		_bullet = NULL;
 	}
-	net->setPosition(bulletEndPosition);
-	net1->setPosition(bulletEndPosition);
-	net2->setPosition(bulletEndPosition);
-	net3->setPosition(bulletEndPosition);
-	addChild(net,1);
-	addChild(net1,1);
-	addChild(net2,1);
-	addChild(net3,1);
 }
 
-void FishingLayer::netRelease(){
+void FishingLayer::netInit(cocos2d::Point netPosition){
     
-	if (net!=NULL)
-	{
-		net->removeFromParent();
-		net=NULL;
-	}
+    auto netScale1=ScaleTo::create(0.3f,0.3f);
+    auto netScale2=ScaleTo::create(0.3f,0.1f);
+    auto netScale3=ScaleTo::create(0.3f,0.0f);
+    
+    auto netFish=SpriteBatchNode::create("GameScene/bullet10-hd.png",5);
+    
+    //Create fishing net and run the fishing animation
+    for (int i=0; i<4; i++) {
+        
+        auto net = Sprite::createWithTexture(netFish->getTexture(),Rect(0,0,80,80));
+        net->setRotation(90.0f*i);
+        net->setAnchorPoint(Point(0.0f,0.0f));
+        net->setPosition(netPosition);
+        addChild(net,1);
+        
+        net->runAction(Sequence::create(netScale1->clone(), netScale2->clone(), netScale3->clone(), CallFunc::create(CC_CALLBACK_0(FishingLayer::netRelease,this,net)), NULL));
+    }
+}
+
+void FishingLayer::netRelease(Node* sender){
+    
+    sender->removeFromParent();
 }
 
 void FishingLayer::pauseEvent(Widget* target, TouchEventType type){
@@ -295,7 +268,7 @@ void FishingLayer::update(float delta){
 	collideCheck();
 }
 
-void FishingLayer::collideCheck(){//Åö×²¼ì²â
+void FishingLayer::collideCheck(){
 	
 	//Check the collide when the bullet is exist
 	if(_bullet!=NULL){
@@ -306,15 +279,6 @@ void FishingLayer::collideCheck(){//Åö×²¼ì²â
             
 			//If the bullet collide the fish
 			if (_bullet->getBoundingBox().intersectsRect(dynamic_cast<FishActor*>(*it_self)->getBoundingBox())) {
-                
-				net->setPosition(Point(dynamic_cast<FishActor*>(*it_self)->getPositionX(),dynamic_cast<FishActor*>(*it_self)->getPositionY()));
-				net1->setPosition(Point(dynamic_cast<FishActor*>(*it_self)->getPositionX(),dynamic_cast<FishActor*>(*it_self)->getPositionY()));
-				net2->setPosition(Point(dynamic_cast<FishActor*>(*it_self)->getPositionX(),dynamic_cast<FishActor*>(*it_self)->getPositionY()));
-				net3->setPosition(Point(dynamic_cast<FishActor*>(*it_self)->getPositionX(),dynamic_cast<FishActor*>(*it_self)->getPositionY()));
-				addChild(net,1);
-				addChild(net1,1);
-				addChild(net2,1);
-				addChild(net3,1);
                 
 				//Release the bullet
 				_bullet->removeFromParent();
@@ -328,6 +292,7 @@ void FishingLayer::collideCheck(){//Åö×²¼ì²â
 				
 				//Tag the collided fish
 				dynamic_cast<FishActor*>(*it_self)->setTag(200);
+                netInit(dynamic_cast<FishActor*>(*it_self)->getPosition());
 				
 				//Play the fish death's animations and release them
 				switch (dynamic_cast<FishActor*>(*it_self)->fishType) {
@@ -414,6 +379,7 @@ void FishingLayer::fishActorsInital(){
 		amphiprionFishActor->setPosition(Point(rand()%910,rand()%590));
 		breamFishActor->setPosition(Point(rand()%910,rand()%430));
 		
+        //Activate fish own movement event
 		((SmallFishActor*)smallFishActor)->activateFishMovement();
 		((AngelFishActor*)angelFishActor)->activateFishMovement();
 		((CroakerActor*)croakerFishActor)->activateFishMovement();
