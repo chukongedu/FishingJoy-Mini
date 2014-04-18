@@ -33,6 +33,7 @@ protected:
 	
 	void fishActorsInital();
 	Vector<FishActor*> fishActors;
+	Vector<FishActor*> _fishToBeRemoved;
 	bool musicTurnOff;
 	
 	ImageView* cannon;
@@ -42,9 +43,8 @@ protected:
     Vector<Sprite*> netVec;
 	
 	Layout* widget;
-	
 	TextAtlas* scoreLabel;
-	
+    	
 	int score;
 	void bulletRelease();
 	

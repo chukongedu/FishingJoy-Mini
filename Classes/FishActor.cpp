@@ -72,21 +72,8 @@ bool SmallFishActor::init(){
 	fishType = FishActorType::SmallFish;
 	
 	//Read the swimming animations textures
-	auto fishes = Vector<SpriteFrame*>();//动态数组容器
+	auto fishes = Vector<SpriteFrame*>();
 	fishes.pushBack(SpriteFrameCache::getInstance()->getSpriteFrameByName("SmallFish_actor_001.png"));
-	/*
-	这几句注释掉后，就无法动画了
-	详见P110：
-	CCSpriteBatchNode
-
-	TextPacker------->.plist+.ccz但用.plist
-	CCSpriteFrameCache--------.plist
-	CCSprite					 --------.png
-
-	fishes.pushBack(SpriteFrameCache::getInstance()->getSpriteFrameByName("SmallFish_actor_002.png"));
-	fishes.pushBack(SpriteFrameCache::getInstance()->getSpriteFrameByName("SmallFish_actor_003.png"));
-	fishes.pushBack(SpriteFrameCache::getInstance()->getSpriteFrameByName("SmallFish_actor_004.png"));
-	*/
 
 	//Create swimming animation
 	auto fishAnimation = Animation::createWithSpriteFrames(fishes,0.1);
