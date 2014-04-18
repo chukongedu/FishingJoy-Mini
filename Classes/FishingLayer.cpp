@@ -169,9 +169,9 @@ void FishingLayer::bulletRelease(){
 
 void FishingLayer::netInit(cocos2d::Point netPosition){
     
-    auto netScale1=ScaleTo::create(0.3f,0.3f);
-    auto netScale2=ScaleTo::create(0.3f,0.1f);
-    auto netScale3=ScaleTo::create(0.3f,0.0f);
+    auto netScale1=ScaleTo::create(0.3f,0.4f);
+    auto netScale2=ScaleTo::create(0.3f,0.3f);
+    auto netScale3=ScaleTo::create(0.3f,0.2f);
     
     auto netFish=SpriteBatchNode::create("GameScene/bullet10-hd.png",5);
     
@@ -290,8 +290,9 @@ void FishingLayer::collideCheck(){
 				sprintf(temp, "%d",score);
 				scoreLabel->setStringValue(temp);
 				
-				//Tag the collided fish
-				dynamic_cast<FishActor*>(*it_self)->setTag(200);
+				auto fish_to_remove = dynamic_cast<FishActor*>(*it_self);
+                _fishToBeRemoved.pushBack(fish_to_remove);
+
                 netInit(dynamic_cast<FishActor*>(*it_self)->getPosition());
 				
 				//Play the fish death's animations and release them
@@ -344,14 +345,14 @@ void FishingLayer::collideCheck(){
 }
 
 void FishingLayer::removeFishes(){
-	
-	//Get the collided fish
-	auto fishActor = this->getChildByTag(200);
-	
+			
 	//Remove the collided fish
-	fishActor->setVisible(false);
-	fishActor->removeAllChildrenWithCleanup(true);
-	fishActor->removeFromParent();
+    for(auto fish : _fishToBeRemoved){
+     
+        fish->removeFromParentAndCleanup(true);
+    }
+
+    _fishToBeRemoved.clear();
 	
 	//Play music effect when catch a fish
 	CocosDenshion::SimpleAudioEngine::getInstance()->playEffect(SOUND_COIN);
