@@ -37,7 +37,7 @@ void FishingPauseLayer::continueEvent(Widget* target, TouchEventType type){
         
 		//Set the background to normal
 		auto background = (Sprite*)(getParent()->getChildByTag(101)->getChildByTag(102));
-		background->setTexture("CocoStudioRes/background.jpg");
+		background->setTexture("CocoStudioRes/FishMiniGameLayer_1/background.jpg");
 		background->setScale(1.0f);
 		background->setZOrder(-1.0f);
         

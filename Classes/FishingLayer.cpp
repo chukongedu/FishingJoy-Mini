@@ -32,18 +32,18 @@ bool FishingLayer::init(){
     setTag(101);
 	
 	//Add background picture
-	auto background = Sprite::create("CocoStudioRes/background.jpg");
+	auto background = Sprite::create("CocoStudioRes/FishMiniGameLayer_1/background.jpg");
 	background->setAnchorPoint(Point(0,0));
 	background->setPosition(Point(0,0));
 	background->setTag(102);
 	addChild(background,0);
 	
 	//Read the resources of CocoStudio json file, and add it to the scene
-	widget = dynamic_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("CocoStudioRes/FishJoyMini_1.json"));
+	widget = dynamic_cast<Layout*>(cocostudio::GUIReader::getInstance()->widgetFromJsonFile("CocoStudioRes/FishMiniGameLayer_1/FishJoyMini_1.json"));
 	addChild(widget,2);
     
 	//Read the texture to sprite frame cache
-	SpriteFrameCache::getInstance()->addSpriteFramesWithFile("CocoStudioRes/cannon-hd.plist");
+	SpriteFrameCache::getInstance()->addSpriteFramesWithFile("CocoStudioRes/FishMiniGameLayer_1/cannon-hd.plist");
 	SpriteFrameCache::getInstance()->addSpriteFramesWithFile("GameScene/Item-chaojiwuqi-iphone-hd.plist");
 	
 	//Get the instantce of ui_box_01_01 and make it rotate forever
@@ -68,8 +68,8 @@ bool FishingLayer::init(){
 	pauseBtn->addTouchEventListener(this, toucheventselector(FishingLayer::pauseEvent));
     
 	//turn on the background music
-	auto turnOnMusicBtn= dynamic_cast<ImageView *>(widget->getChildByName("ImageView_42"));
-	turnOnMusicBtn->addTouchEventListener(this,toucheventselector(FishingLayer::turnOnMusic));
+	auto turnOnMusinBtn= dynamic_cast<ImageView *>(widget->getChildByName("ImageView_42"));
+	turnOnMusinBtn->addTouchEventListener(this,toucheventselector(FishingLayer::turnOnMusic));
     
 	//turn off the background music
 	auto turnOffMusicBtn= dynamic_cast<Button *>(widget->getChildByName("music"));
