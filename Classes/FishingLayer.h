@@ -34,7 +34,8 @@ protected:
 	void fishActorsInital();
 	Vector<FishActor*> fishActors;
 	Vector<FishActor*> _fishToBeRemoved;
-	bool musicTurnOff;
+    
+	bool _musicSwitch;
 	
 	ImageView* cannon;
 	
@@ -56,11 +57,8 @@ protected:
 	/** Callback func of pause button */
 	void pauseEvent(Widget* target,TouchEventType type);
     
-	/**turn off backgroundMusic*/
-	void turnOffMusic(Widget* target,TouchEventType type);
-    
-	/**turn on backgroundMusic*/
-	void turnOnMusic(Widget* target,TouchEventType type);
+	/**turn on/off backgroundMusic*/
+	void musicControl(Widget* target,TouchEventType type);
     
 	void bulletShoot(Point endPosition);
 	

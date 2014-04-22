@@ -24,9 +24,10 @@
 
 bool FishingLayer::init(){
     
-	musicTurnOff=true;
 	Layer::init();
-	_bullet=NULL;
+    
+	_bullet = NULL;
+	_musicSwitch = true;
     
     //Set tag of the layer, and get it in pause layer
     setTag(101);
@@ -67,13 +68,9 @@ bool FishingLayer::init(){
 	auto pauseBtn = dynamic_cast<Button*>(widget->getChildByName("pauseBtn"));
 	pauseBtn->addTouchEventListener(this, toucheventselector(FishingLayer::pauseEvent));
     
-	//turn on the background music
-	auto turnOnMusinBtn= dynamic_cast<ImageView *>(widget->getChildByName("ImageView_42"));
-	turnOnMusinBtn->addTouchEventListener(this,toucheventselector(FishingLayer::turnOnMusic));
-    
 	//turn off the background music
-	auto turnOffMusicBtn= dynamic_cast<Button *>(widget->getChildByName("music"));
-	turnOffMusicBtn->addTouchEventListener(this,toucheventselector(FishingLayer::turnOffMusic));
+	auto musicBtn = dynamic_cast<Button *>(widget->getChildByName("music"));
+	musicBtn->addTouchEventListener(this,toucheventselector(FishingLayer::musicControl));
     
 	//Activate update
 	scheduleUpdate();
@@ -216,15 +213,20 @@ void FishingLayer::pauseEvent(Widget* target, TouchEventType type){
 	}
 }
 
-void FishingLayer::turnOffMusic(Widget* target,TouchEventType type)
-{
-    //CocosDenshion::SimpleAudioEngine::getInstance()->stopBackgroundMusic("Audio/music_1.mp3");
-    CocosDenshion::SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
-}
-
-void FishingLayer::turnOnMusic(Widget* target,TouchEventType type){
+void FishingLayer::musicControl(Widget* target,TouchEventType type){
+   
+    if(type == TouchEventType::TOUCH_EVENT_ENDED){
+        
+        if(_musicSwitch){
+       
+            CocosDenshion::SimpleAudioEngine::getInstance()->pauseBackgroundMusic();
+            _musicSwitch = false;
+        }else{
     
-	CocosDenshion::SimpleAudioEngine::getInstance()->resumeBackgroundMusic();
+            CocosDenshion::SimpleAudioEngine::getInstance()->resumeBackgroundMusic();
+            _musicSwitch = true;
+        }
+    }
 }
 
 void FishingLayer::setCannonRotation(Widget* target, Point targetPos){
