@@ -103,9 +103,14 @@ void FishingLayer::shootEvent(Widget* target,TouchEventType type){
 		//Change the cannon rotation
 		FishingLayer::setCannonRotation(target,target->getTouchEndPos());
 		
+        //Calulatethe rotation of cannon
+        auto radian=atan2(target->getTouchEndPos().y-21.6f ,target->getTouchEndPos().x-480.0f);
+        auto inclination= radian*180/3.14;
+        auto rotation= -(inclination)+90;
+        
 		//Shoot the bullet
-		bulletShoot(target->getTouchEndPos());
-		
+        if(rotation<=70 && rotation >=-70)
+            bulletShoot(target->getTouchEndPos());
 		
 	}else if(type == TouchEventType::TOUCH_EVENT_MOVED){
         
